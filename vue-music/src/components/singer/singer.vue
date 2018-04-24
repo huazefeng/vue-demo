@@ -21,7 +21,6 @@ export default {
   },
   created() {
       this._getSingerList()
-
   },
   methods: {
     _getSingerList() {
@@ -57,7 +56,6 @@ export default {
                 name: item.Fsinger_name
             }))
         })
-        console.log(map)
         //map排序
         let hot = []
         let ret = []
